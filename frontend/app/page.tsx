@@ -8,7 +8,7 @@ import Player from "@/components/Player";
 import ArtifactPanel from "@/components/ArtifactPanel";
 import type { VibeMode, Segment, EpisodeMetadata, PlaybackState, ArtifactData } from "@/types";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "/_/backend";
 const PLAY_AFTER = 3; // Start playback after this many segments
 
 function base64ToAudioUrl(b64: string): string {
